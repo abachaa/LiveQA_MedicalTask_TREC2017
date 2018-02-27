@@ -2851,14 +2851,13 @@ Adverse events with onset during the 2 weeks following discontinuation of WELLBU
  <Annotations>
 		<Q-Focus fid="F1" fcategory="Problem">EDS</Q-Focus>	
 		<Q-Focus fid="F2" fcategory="Problem">Osteogenesis Imperfecta</Q-Focus>	
-		<Q-Type tid="T1" hasFocus="F1">COMPARISON</Q-Type>
-		<Q-Type tid="T2" hasFocus="F1" hasKeyword="K1">DIAGNOSIS</Q-Type>
-		<Q-Type tid="T3" hasFocus="F1" hasKeyword="K1,K2">PERSON_ORGANIZATION</Q-Type>
-		<Q-Type tid="T4" hasFocus="F2" hasKeyword="K1">DIAGNOSIS</Q-Type>
-		<Q-Type tid="T5" hasFocus="F2" hasKeyword="K1,K2">PERSON_ORGANIZATION</Q-Type>
-		<Q-Keyword kid="K1" kcategory="DiagnosticProcedure">genetic testing</Q-Keyword>
-		<Q-Keyword kid="K2" kcategory="GeographicLocation">Southern California</Q-Keyword>
- </Annotations>
+		<Q-Type tid="T1" hasFocus="F1,F2">COMPARISON</Q-Type>
+		<Q-Type tid="T2" hasFocus="F1">DIAGNOSIS</Q-Type>
+		<Q-Type tid="T3" hasFocus="F1" hasKeyword="K1">PERSON_ORGANIZATION</Q-Type>
+		<Q-Type tid="T4" hasFocus="F2">DIAGNOSIS</Q-Type>
+		<Q-Type tid="T5" hasFocus="F2" hasKeyword="K1">PERSON_ORGANIZATION</Q-Type>
+		<Q-Keyword kid="K1" kcategory="GeographicLocation">Southern California</Q-Keyword>
+ </Annotations> 
  <ReferenceAnswers> 
 	<ReferenceAnswer aid="TQ86A1">
 		<Answer> 1. Invitae Ehlers-Danlos Syndrome Panel
