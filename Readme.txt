@@ -45,31 +45,31 @@ Medical Test Data
 Test questions cover 26 question types associated with five focus categories. Each question includes one or more subquestion(s) and at least one focus and one question type. Reference answers are selected from trusted resources and validated by medical experts. Additional annotations for each test question are provided, including: 
 
   1) List of Foci and their categories:   
-	Example: <Q-Focus fid="F1" fcategory="Problem">Beckwith-Wieddeman Syndrome</Q-Focus>
+	Example: <FOCUS fid="F1" fcategory="Problem">Beckwith-Wieddeman Syndrome</FOCUS>
   2) List of relevant keywords and their categories: 
-	Example: <Q-Keyword kid="K1" kcategory="Anatomy">ear</Q-Keyword> 
+	Example: <KEYWORD kid="K1" kcategory="Anatomy">ear</KEYWORD> 
   3) List of question types and associated focus/foci and keyword(s):
-	Example: <Q-Type tid="T1" hasFocus="F1,F2">INTERACTION</Q-Type> 
+	Example: <TYPE tid="T1" hasFocus="F1,F2">INTERACTION</TYPE>  
 
 ---------------Simplified annotation of a test question-----------
 <NLM-QUESTION qid=""> 
  <Original-Question qfile="">
-	<Subject></Subject>
-	<Message></Message>
+	<SUBJECT></SUBJECT>
+	<MESSAGE></MESSAGE>
 	 </Original-Question>
- <Paraphrase></Paraphrase>
- <Annotations>
-	<Q-Focus fid="F1" fcategory=""></Q-Focus>
-	<Q-Type tid="T1" hasFocus="F1" hasKeyword="K1"></Q-Type>
-	<Q-Keyword kid="K1" kcategory=""></Q-Keyword>
- </Annotations>	
+ <NIST-PARAPHRASE></NIST-PARAPHRASE>
+ <ANNOTATIONS>
+	<FOCUS fid="F1" fcategory=""></FOCUS>
+	<TYPE tid="T1" hasFocus="F1" hasKeyword="K1"></TYPE>
+	<KEYWORD kid="K1" kcategory=""></KEYWORD>
+ </ANNOTATIONS>	 
  <ReferenceAnswers> 
 	<ReferenceAnswer aid="">
-		<Answer></Answer>
+		<ANSWER></ANSWER>
 		<AnswerURL></AnswerURL>
-		<Comment></Comment>
+		<COMMENT></COMMENT>
 	</ReferenceAnswer>	
-</ReferenceAnswers>  
+</ReferenceAnswers>   
 </NLM-QUESTION> 
 ---------------------------------------------------------------------
 
