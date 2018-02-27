@@ -42,7 +42,9 @@ The datasets are not exhaustive with regards to subquestions, i.e., some subques
 Medical Test Data
 ==================
 
-Test questions cover 26 question types associated with five focus categories. Each question includes one or more subquestion(s) and at least one focus and one question type. Reference answers are selected from trusted resources and validated by medical experts. Additional annotations for each test question are provided, including: 
+Test questions cover 26 question types associated with five focus categories. Each question includes one or more subquestion(s) and at least one focus and one question type. Reference answers were selected from trusted resources and validated by medical experts. We provide at least one reference answer for each test question, its URL and relevant comments. Question paraphrases were created by NIST assessors and used with the reference answers to judge the participants' answers.  
+
+Additional annotations for each test question are provided, including: 
 
   1) List of Foci and their categories:   
 	Example: <FOCUS fid="F1" fcategory="Problem">Beckwith-Wieddeman Syndrome</FOCUS>
@@ -56,7 +58,7 @@ Test questions cover 26 question types associated with five focus categories. Ea
  <Original-Question qfile="">
 	<SUBJECT></SUBJECT>
 	<MESSAGE></MESSAGE>
-	 </Original-Question>
+ </Original-Question>
  <NIST-PARAPHRASE></NIST-PARAPHRASE>
  <ANNOTATIONS>
 	<FOCUS fid="F1" fcategory=""></FOCUS>
@@ -69,7 +71,7 @@ Test questions cover 26 question types associated with five focus categories. Ea
 		<AnswerURL></AnswerURL>
 		<COMMENT></COMMENT>
 	</ReferenceAnswer>	
-</ReferenceAnswers>   
+ </ReferenceAnswers>   
 </NLM-QUESTION> 
 ---------------------------------------------------------------------
 
