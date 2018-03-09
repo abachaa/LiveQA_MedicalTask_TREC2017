@@ -7,7 +7,7 @@ We constructed medical question-answer pairs for training and testing, with addi
 
 Please refer to our overview papers for more information about the constructed datasets and the LiveQA Track: 
 
-	- Asma Ben Abacha & Dina Demner-Fushman. Overview of the Medical Question Answering Task at TREC 2017 LiveQA. TREC, Gaithersburg, MD, 2017.  
+	- Asma Ben Abacha, Eugene Agichtein, Yuval Pinter & Dina Demner-Fushman. Overview of the Medical Question Answering Task at TREC 2017 LiveQA. TREC, Gaithersburg, MD, 2017.  
 
 	- Eugene Agichtein, Asma Ben Abacha, Eric Nyberg, Donna Harman & Yuval Pinter. Overview of the TREC 2017 LiveQA Track. TREC, Gaithersburg, MD, 2017. 
 
@@ -17,7 +17,7 @@ A summary of the constructed medical datasets is below.
 If you use these datasets, please cite our paper: 
 
 	@inproceedings{LiveMedQA2017,
-	  author    = {Asma {Ben Abacha} and Dina Demner{-}Fushman},
+	  author    = {Asma {Ben Abacha} and Eugene Agichtein and Yuval Pinter and Dina Demner{-}Fushman}, 
 	  title     = {Overview of the Medical Question Answering Task at TREC 2017 LiveQA}, 
 	  booktitle = {TREC 2017},
 	  year      = {2017}
