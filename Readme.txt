@@ -5,14 +5,11 @@ TREC-2017 LiveQA: Medical Question Answering Task
 The LiveQA'17 medical task focuses on consumer health question answering. We use consumer health questions received by the U.S. National Library of Medicine (NLM). 
 We constructed medical question-answer pairs for training and testing, with additional annotations that can be used to develop question analysis and question answering systems.  
 
-Please refer to our overview papers for more information about the constructed datasets and the LiveQA Track: 
+Please refer to our overview paper for more information about the constructed datasets and the LiveQA Track: 
 
 	- Asma Ben Abacha, Eugene Agichtein, Yuval Pinter & Dina Demner-Fushman. Overview of the Medical Question Answering Task at TREC 2017 LiveQA. TREC, Gaithersburg, MD, 2017.  
 
-	- Eugene Agichtein, Asma Ben Abacha, Eric Nyberg, Donna Harman & Yuval Pinter. Overview of the TREC 2017 LiveQA Track. TREC, Gaithersburg, MD, 2017. 
-
-
-A summary of the constructed medical datasets is below.  
+A summary of the constructed medical datasets is below.   
 
 If you use these datasets, please cite our paper: 
 
