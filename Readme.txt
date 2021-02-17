@@ -20,9 +20,9 @@ If you use these datasets, please cite our paper:
 	  year      = {2017}
 	} 
 
-======================
-Medical Training Data
-====================== 
+=========================
+**Medical Training Data**
+========================= 
 
 We provide 634 question-answer pairs for training: 
 
@@ -35,11 +35,14 @@ We provide 634 question-answer pairs for training:
 
 The datasets are not exhaustive with regards to subquestions, i.e., some subquestions might not be annotated. We also provide additional annotations for both (i) the Focus and (ii) the Question Type used to define each subquestion. 23 question types were considered (e.g. Treatment, Cause, Diagnosis, Indication, Susceptibility, Dosage) related to four focus categories: Disease, Drug, Treatment and Exam. 
 
-==================
-Medical Test Data
-==================
+=====================
+**Medical Test Data**
+=====================
 
-Test questions cover 26 question types associated with five focus categories. Each question includes one or more subquestion(s) and at least one focus and one question type. Reference answers were selected from trusted resources and validated by medical experts. We provide at least one reference answer for each test question, its URL and relevant comments. Question paraphrases were created by NIST assessors and used with the reference answers to judge the participants' answers.  
+Test questions cover 26 question types associated with five focus categories. Each question includes one or more subquestion(s) and at least one focus and one question type. Reference answers were selected from trusted resources and validated by medical experts. We provide at least one reference answer for each test question, its URL and relevant comments. Question paraphrases were created by 
+assessors and used with the reference answers to judge the participants' answers.  
+
+We also created summaries of the LiveQA test questions in the context of our work on Consumer Health Question Summarization, as described and used in the following paper: ["On the Role of Question Summarization and Information Source Restriction in Consumer Health Question Answering". Asma Ben Abacha & Dina Demner-Fushman. AMIA 2019 Informatics Summit](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6568117/).  
 
 Additional annotations for each test question are provided, including: 
 
@@ -49,6 +52,7 @@ Additional annotations for each test question are provided, including:
 	Example: <KEYWORD kid="K1" kcategory="Anatomy">ear</KEYWORD> 
   3) List of question types and associated focus/foci and keyword(s):
 	Example: <TYPE tid="T1" hasFocus="F1,F2">INTERACTION</TYPE>  
+ 	
 
 ---------------Simplified annotation of a test question-----------
 <NLM-QUESTION qid=""> 
@@ -57,6 +61,8 @@ Additional annotations for each test question are provided, including:
 	<MESSAGE></MESSAGE>
  </Original-Question>
  <NIST-PARAPHRASE></NIST-PARAPHRASE>
+ <NLM-Summary></NLM-Summary>
+
  <ANNOTATIONS>
 	<FOCUS fid="F1" fcategory=""></FOCUS>
 	<TYPE tid="T1" hasFocus="F1" hasKeyword="K1"></TYPE>
