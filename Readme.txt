@@ -39,8 +39,12 @@ The datasets are not exhaustive with regards to subquestions, i.e., some subques
 Medical Test Data
 =====================
 
-Test questions cover 26 question types associated with five focus categories. Each question includes one or more subquestion(s) and at least one focus and one question type. Reference answers were selected from trusted resources and validated by medical experts. We provide at least one reference answer for each test question, its URL and relevant comments. Question paraphrases were created by 
-assessors and used with the reference answers to judge the participants' answers.  
+Test questions cover 26 question types associated with five focus categories. Each question includes one or more subquestion(s) and at least one focus and one question type. Reference answers were selected from trusted resources and validated by medical experts. We provide at least one reference answer for each test question, its URL and relevant comments. Question paraphrases were created by assessors and used with the reference answers to judge the participants' answers.  
+
+
+---------------------------------
+Question Summaries & Annotations
+---------------------------------
 
 We also created summaries of the LiveQA test questions in the context of our work on Consumer Health Question Summarization, as described and used in the following paper: "On the Role of Question Summarization and Information Source Restriction in Consumer Health Question Answering". Asma Ben Abacha & Dina Demner-Fushman. AMIA 2019 Informatics Summit (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6568117/). 
 
@@ -77,6 +81,17 @@ Additional annotations for each test question are provided, including:
  </ReferenceAnswers>   
 </NLM-QUESTION> 
 ---------------------------------------------------------------------
+
+------------------------------------
+MedQuAD & Additional Judged Answers
+------------------------------------
+
+TestDataset (https://github.com/abachaa/LiveQA_MedicalTask_TREC2017/tree/master/TestDataset) contains the annotations of the test questions, the reference summaries, and the judgments of the participants' answers (qrels_NIST). 
+
+In our BMC Bioinformatics paper "A question-entailment approach to question answering" (https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-019-3119-4), we have manually judged 2,479 additional answers retrieved from the MedQuAD collection to TREC-2017 LiveQA-Med questions. 
+
+The MedQuAD collection and the 2,479 judged answers are available at https://github.com/abachaa/MedQuAD. 
+ 
 
 Contact Information
 -------------------
