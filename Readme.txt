@@ -92,8 +92,3 @@ In our BMC Bioinformatics paper "A question-entailment approach to question answ
 
 The MedQuAD collection and the 2,479 judged answers are available at https://github.com/abachaa/MedQuAD. 
  
-
-Contact Information
--------------------
-- Asma Ben Abacha: asma.benabacha@nih.gov
-- Dina Demner-Fushman: ddemner@mail.nih.gov
