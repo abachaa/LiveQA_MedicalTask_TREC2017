@@ -11,14 +11,20 @@ Please refer to our overview paper for more information about the constructed da
 
 A summary of the constructed medical datasets is below.   
 
-If you use these datasets, please cite our paper: 
 
-	@inproceedings{LiveMedQA2017,
-	  author    = {Asma {Ben Abacha} and Eugene Agichtein and Yuval Pinter and Dina Demner{-}Fushman}, 
-	  title     = {Overview of the Medical Question Answering Task at TREC 2017 LiveQA}, 
-	  booktitle = {TREC 2017},
-	  year      = {2017}
-	} 
+=========================
+License
+========================= 
+
+This work is released under the Creative Commons Attribution 4.0 International License (CC BY 4.0 https://creativecommons.org/licenses/by/4.0/). 
+If you use the LiveQA-Medical dataset, please cite our paper: 
+
+         @inproceedings{LiveMedQA2017,
+         author    = {Asma {Ben Abacha} and Eugene Agichtein and Yuval Pinter and Dina Demner{-}Fushman}, 
+         title     = {Overview of the Medical Question Answering Task at TREC 2017 LiveQA}, 
+         booktitle = {TREC 2017},
+         url = {https://trec.nist.gov/pubs/trec26/papers/Overview-QA.pdf}, 
+         year      = {2017}} 
 
 =========================
 Medical Training Data
@@ -91,4 +97,10 @@ TestDataset (https://github.com/abachaa/LiveQA_MedicalTask_TREC2017/tree/master/
 In our BMC Bioinformatics paper "A question-entailment approach to question answering" (https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-019-3119-4), we have manually judged 2,479 additional answers retrieved from the MedQuAD collection to TREC-2017 LiveQA-Med questions. 
 
 The MedQuAD collection and the 2,479 judged answers are available at https://github.com/abachaa/MedQuAD. 
- 
+
+
+-------------------
+ Contact Information
+ -------------------
+Asma Ben Abacha: asma.benabacha AT gmail.com      https://sites.google.com/site/asmabenabacha/
+
